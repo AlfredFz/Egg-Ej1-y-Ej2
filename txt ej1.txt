@@ -39,7 +39,9 @@ Ejercicio N°2: guía git ------------------------------------------------------
 1. El siguiente ejercicio nos pide hacer una modificación al archivo original enviado. Dicha modificación, en este caso, consiste en agregarle
    el número de ejercicio y los los guiones entre ellos, para hacer de separadores. Lo que nos resta ahora, es subir estos cambios al repositorio
    remoto. Para esto haremos:
-	- 
+	- Primero constatamos el cambio con el archivo original con el comando "git status". Aquello que se haya modificado estrá en color rojo
+	- Luego agregamos los archivos modificados con "git add ." y procedemos a hacer el el segundo commit con "git commit - m "Segundo commit""
+	
 
 
   
