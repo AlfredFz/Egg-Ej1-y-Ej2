@@ -1,5 +1,7 @@
 Cómo Trabajar con GIT. (con GITHUB)
 
+Ejercicio N°1: guía git --------------------------------------------------------------------------------------------------------------------------
+
 1. En primer lugar creamos un nuevo repositorio en GITHUB. Este será nuestro repositorio remoto.
 	- Para esto vamos a la página (https://github.com/).
 	- Luego seleccionamos la opción "New"(color verde), de la barra izquierda "Repositories".
@@ -29,7 +31,16 @@ Cómo Trabajar con GIT. (con GITHUB)
 	  Mediante un "git status" deberíamos observar que todos los archivos pasan a color verde.
 	- Para preparar o "empaquetar" los archivos antes de enviarlos, utilizamos el comando "git commit -m "<mensaje a mostrar>"".
 	  En nuestro caso el mensaje será "Primer commit". si hacemos un "status", podremos ver en verde los archivos commiteados para enviar.
+	- Para enviar la información utilizaremos el comando "git push origin master". Esto significa que enviaremos información al repositorio
+	  remoto cuyo nombre o alias es "origin", y a su rama "master" o maestra.
+
+Ejercicio N°2: guía git -----------------------------------------------------------------------------------------------------------------------
+
+1. El siguiente ejercicio nos pide hacer una modificación al archivo original enviado. Dicha modificación, en este caso, consiste en agregarle
+   el número de ejercicio y los los guiones entre ellos, para hacer de separadores. Lo que nos resta ahora, es subir estos cambios al repositorio
+   remoto. Para esto haremos:
 	- 
+
 
   
    
