@@ -1,0 +1,37 @@
+Cómo Trabajar con GIT. (con GITHUB)
+
+1. En primer lugar creamos un nuevo repositorio en GITHUB. Este será nuestro repositorio remoto.
+	- Para esto vamos a la página (https://github.com/).
+	- Luego seleccionamos la opción "New"(color verde), de la barra izquierda "Repositories".
+	- A continuación le damos un nombre, le damos una descripción (opcional), y configuramos
+	  el resto de las opciones.
+	- Finalmente le damos click al boton verde "Create repository".
+
+2. En segundo lugar, vamos a crear e inicializar el repositorio local. Para esto:
+	- Buscamos la carpeta con los archivos que queremos vincular repositorio remoto. En este caso lo vamos a hacer con
+          la carpeta que contiene este archivo "(C:\Users\Usr\Documents\Alfre\Full Stack\GIT\Git Ej1)". 
+	  Esto es: sobre la carpeta que "Git Ej1", damos click derecho, y seleccionamos la opción: "Git Bash Here".
+	- Una vez hecho lo anterior, utilizamos el comando "git init". Esto inicializará el repositorio local en la 
+	  direccion especificada anteriormente. Dicha direccion también podrá ser vista en la consola del Git Bash.
+          Además, veremos la frase (master), que indica que estamos parados sobre la rama maestra.
+
+3. Lo siguiente es vincular nuestro repositorio local, con el remoto. Esto lo haremos de la siguiente manera:
+	- Primero buscamos de GITHUB la url del repositorio. En este caso "https://github.com/AlfredFz/Egg-Ej1-y-Ej2.git".
+	- Luego introducimos el comando "git remote add origin https://github.com/AlfredFz/Egg-Ej1-y-Ej2.git". 
+	  Podemos decir que el comando "añade o vincula" (add), el repositorio remoto de nombre "origin" (puede ser otro nombre),
+	  que se cuya url es "https://github.com/AlfredFz/Egg-Ej1-y-Ej2.git".
+	- Podemos comprobar el vínculo con el comando "git remote -v" nos debería mostrar un "fetch" y un "push", del repositorio.
+
+4. Ahora vamos a enviar los archivos al repositorio remoto.
+	- Con el comando "git status" vamos a ver todo lo que hay en el repositorio (color verde), y lo no subido (color rojo).
+	- El comando "git add ." se utiliza para añadir todos los archivos (dejarlos listos), para subirlos (o commitearlos ne la jerga de git).
+	  Existen otros comandos que seleccionan los achivos de manera más especifica bajo distintos criterios, pero por ahora usamos el "add ."
+	  Mediante un "git status" deberíamos observar que todos los archivos pasan a color verde.
+	- Para preparar o "empaquetar" los archivos antes de enviarlos, utilizamos el comando "git commit -m "<mensaje a mostrar>"".
+	  En nuestro caso el mensaje será "Primer commit". si hacemos un "status", podremos ver en verde los archivos commiteados para enviar.
+	- 
+
+  
+   
+
+
